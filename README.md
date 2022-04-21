@@ -6,7 +6,7 @@
 
 |**Functions**|**Variables**|
 |---|---|
-|<a href="https://github.com/DeanCash/CPP-Funtions/tree/main/Functions">String Related Functions</a>|<a>---</a>|
+|<a href="https://github.com/DeanCash/CPP-Funtions/tree/main/Functions/stringFunctions.hpp">String Related Functions</a>|<a href="https://github.com/DeanCash/CPP-Funtions/blob/main/Functions/rescources.hpp">Colors</a>|
 |<a href="">---</a>|<a>---</a>|
 
 </div>
