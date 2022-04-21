@@ -1,0 +1,7 @@
+*.exe
+*.txt
+*.json
+
+.vscode
+test.cpp
+test.exe
