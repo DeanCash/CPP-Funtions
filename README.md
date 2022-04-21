@@ -15,7 +15,7 @@
 
 
 
-<div style="position: absolute;text-align: center;left: 50%;bottom:2em;transform: translate(-50%, 0);">
+<div align="center">
  <a href="https://github.com/DeanCash" target="_blank">
   <img src="https://img.shields.io/github/followers/DeanCash?color=1C97C7&label=DeanCash&style=social"/>
  </a>   
