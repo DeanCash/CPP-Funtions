@@ -2,7 +2,7 @@
 
 ### Here I made some useful functions you can use in your C++ projects to make certain stuff easier 🚀
 
-<div align="center">
+<div style="left:6em;">
 
 |**Functions**|**Variables**|
 |---|---|
