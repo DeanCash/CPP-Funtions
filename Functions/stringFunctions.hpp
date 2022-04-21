@@ -6,6 +6,7 @@
 using std::string; using std::cout; using std::endl;
 
 namespace stringFunctions {
+	
 	int strlen(string String) {
 		int i = 0;
 		while (String[i])
@@ -51,4 +52,5 @@ namespace stringFunctions {
 			return String;
 		}
 	}
+	
 }
