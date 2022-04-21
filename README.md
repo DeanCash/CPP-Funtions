@@ -5,7 +5,7 @@
 
 |**Functions**|**Variables**|
 |---|---|
-|<a href="https://github.com/DeanCash/CPP-Funtions/tree/main/Functions">String Functions</a>|<a>---</a>|
+|<a href="https://github.com/DeanCash/CPP-Funtions/tree/main/Functions">String Related Functions</a>|<a>---</a>|
 |<a href="">---</a>|<a>---</a>|
 
 <a href=""></a>
