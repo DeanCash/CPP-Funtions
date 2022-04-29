@@ -69,6 +69,10 @@ namespace stringFunctions {
 	   at the end of path, a [file.txt], or [folderName]  */
 	string getPathTail (string path)
 	{
+		if (!filesystem::exists(path)) {
+			return "";
+		}
+
 		string fileName = path.substr(path.find_last_of("\\") + 1 );
 		if ((path.length()) == (fileName.length()))
 		{
@@ -85,6 +89,9 @@ namespace stringFunctions {
 	string getPathTail (path pPath)
 	{
 		string path = pPath.string();
+		if (!filesystem::exists(path)) {
+			return "";
+		}
 
 		string fileName = path.substr(path.find_last_of("\\") + 1 );
 		if ((path.length()) == (fileName.length()))
