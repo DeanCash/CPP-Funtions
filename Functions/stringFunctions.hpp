@@ -69,7 +69,7 @@ namespace stringFunctions {
 	   at the end of path, a [file.txt], or [folderName]  */
 	string getPathTail (string path)
 	{
-		string fileName = path.substr(path.find_last_of("\\")+1 );
+		string fileName = path.substr(path.find_last_of("\\") + 1 );
 		if ((path.length()) == (fileName.length()))
 		{
 			fileName = path.substr((path.find_last_of("/") + 1));
@@ -86,7 +86,7 @@ namespace stringFunctions {
 	{
 		string path = pPath.string();
 
-		string fileName = path.substr(path.find_last_of("\\")+1 );
+		string fileName = path.substr(path.find_last_of("\\") + 1 );
 		if ((path.length()) == (fileName.length()))
 		{
 			fileName = path.substr((path.find_last_of("/") + 1));
