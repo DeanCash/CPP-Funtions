@@ -1,4 +1,5 @@
-#pragma once
+#ifndef resources_hpp
+#define resources_hpp
 
 #include <string>
 
@@ -24,3 +25,5 @@ struct {
     std::string inverseOff      = "\x1B[27m";   // 27
 
 } Colors;
+
+#endif
