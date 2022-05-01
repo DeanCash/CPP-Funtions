@@ -3,7 +3,7 @@
 
 #include <string>
 
-struct {
+struct Colors {
 
     //*   std::string standard  = "\x1B[ m";
 
@@ -15,6 +15,12 @@ struct {
     std::string magenta         = "\x1B[35m";   // fg 35 | bg 45
     std::string cyan            = "\x1B[36m";   // fg 36 | bg 46
     std::string white           = "\x1B[37m";   // fg 37 | bg 47
+    std::string brightRed       = "\x1B[91m";   // fg 91
+    std::string brightGreen     = "\x1B[92m";   // fg 92
+    std::string brightYellow    = "\x1B[93m";   // fg 93
+    std::string brightBlue      = "\x1B[94m";   // fg 94
+    std::string brightMegenta   = "\x1B[95m";   // fg 95
+    std::string brightCyan      = "\x1B[96m";   // fg 96
 
     std::string reset           = "\x1B[0m" ;   // 0
     std::string boldBright      = "\x1B[1m" ;   // 1
@@ -24,6 +30,6 @@ struct {
     std::string underlineOff    = "\x1B[24m";   // 24
     std::string inverseOff      = "\x1B[27m";   // 27
 
-} Colors;
+};
 
 #endif
