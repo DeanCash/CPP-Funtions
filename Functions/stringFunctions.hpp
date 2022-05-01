@@ -61,7 +61,7 @@ namespace stringFunctions {
 	   at the end of path, a [file.txt], or [folderName]  */
 	string getPathTail (string path)
 	{
-		if (!filesystem::exists(path)) {
+		if (!std::filesystem::exists(path)) {
 			return "";
 		}
 
@@ -81,7 +81,7 @@ namespace stringFunctions {
 	string getPathTail (path pPath)
 	{
 		string path = pPath.string();
-		if (!filesystem::exists(path)) {
+		if (!std::filesystem::exists(path)) {
 			return "";
 		}
 
