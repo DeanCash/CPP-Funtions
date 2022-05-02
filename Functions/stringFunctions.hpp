@@ -25,9 +25,7 @@ namespace stringFunctions {
 			return String;
 		} else if (inputAmount <= 0 || inputAmount > 300) {
 			cout << "Amount Cannot Be Bigger Than 300 Or Less Than 0!" << endl;
-			return "";;
-		} else {
-			return String;
+			return "";
 		}
 	}
 
@@ -50,10 +48,7 @@ namespace stringFunctions {
 		}
 		else if (inputAmount <= 0 || inputAmount > 300) {
 			cout << "Amount Cannot Be Bigger Than 300 Or Less Than 0!" << endl;
-			return "";;
-		}
-		else {
-			return String;
+			return "";
 		}
 	}
 
