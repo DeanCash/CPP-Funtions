@@ -3,7 +3,7 @@
 
 #include <string>
 
-struct Colors {
+struct {
 
     //*   std::string standard  = "\x1B[ m";
 
@@ -29,6 +29,6 @@ struct Colors {
     std::string boldBrightOff   = "\x1B[21m";   // 21
     std::string underlineOff    = "\x1B[24m";   // 24
     std::string inverseOff      = "\x1B[27m";   // 27
-};
+} Colors;
 
 #endif

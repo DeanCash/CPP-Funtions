@@ -27,6 +27,7 @@ namespace stringFunctions {
 			cout << "Amount Cannot Be Bigger Than 300 Or Less Than 0!" << endl;
 			return "";
 		}
+		return "";
 	}
 
 	/* right justify the string - does te exact same thing as
@@ -50,6 +51,7 @@ namespace stringFunctions {
 			cout << "Amount Cannot Be Bigger Than 300 Or Less Than 0!" << endl;
 			return "";
 		}
+		return "";
 	}
 
 	/* gives the tail of an inputted path, = what comes at
